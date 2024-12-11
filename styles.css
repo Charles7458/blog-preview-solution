@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(244, 208, 78);
+    font-family: "Figtree", sans-serif;
+}
+
+.blog-card {
+    height: 440px;
+    margin: 0 auto;
+    width: 310px;
+    border-radius: 20px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 10px 0px 0px rgb(17, 17, 17);
+}
+
+
+.illustration {
+    height: 170px;
+    border-radius: 20px;
+    margin: 13px;
+    
+}
+
+
+.learning {
+     background-color: rgb(244, 208, 78);
+     color: rgb(17, 17, 17);
+     width: fit-content;
+     border-radius: 4px;
+     /* margin-left: 15px; */
+     padding: 4px;
+     font-family: "Figtree", sans-serif;
+     font-size: 16px;
+     font-weight: 800;
+}
+
+.info , .author{
+    padding-left: 15px;
+}
+
+.published {
+    padding: 10px 10px 10px 0px;
+}
+
+.heading {
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.heading:hover {
+    color:rgb(244,208,78);
+}
+
+.blog {
+    margin: 10px 0px 10px 0px;
+}
+
+.author {
+    display: flex;
+    margin: 20px 0px 0px 0px ;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.name {
+    margin: 7px 5px 0px 5px;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.pfp {
+    height: 35px;
+    width: 35px;
+    padding: 5px 5px 0px 5px;
+}
+
+.attribution {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+}
+
+.attribution a:link{ 
+    color: hsl(228, 45%, 44%);
+    text-decoration: none; 
+}
+
+.attribution a:hover {
+    text-decoration: underline;
+}
+
