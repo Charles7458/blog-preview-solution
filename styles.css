@@ -16,7 +16,7 @@ body {
 }
 
 .blog-card {
-    height: 440px;
+    height: 420px;
     margin: 0 auto;
     width: 310px;
     border-radius: 20px;
@@ -24,14 +24,14 @@ body {
     align-items: center;
     justify-content: center;
     box-shadow: 10px 10px 0px 0px rgb(17, 17, 17);
+    outline: 1px solid black;
 }
 
 
 .illustration {
-    height: 170px;
-    border-radius: 20px;
-    margin: 13px;
-    
+    height: 165px;
+    border-radius: 10px;
+    margin: 17px 17px 17px 17px;
 }
 
 
@@ -41,22 +41,23 @@ body {
      width: fit-content;
      border-radius: 4px;
      /* margin-left: 15px; */
-     padding: 4px;
+     padding: 4px 12px;
      font-family: "Figtree", sans-serif;
-     font-size: 16px;
+     font-size: 0.75rem;
      font-weight: 800;
 }
 
 .info , .author{
-    padding-left: 15px;
+    padding-left: 17px;
 }
 
 .published {
-    padding: 10px 10px 10px 0px;
+    font-size: 0.70rem;
+    padding: 12px 10px 10px 0px;
 }
 
 .heading {
-    font-size: 20px;
+    font-size: 1.3rem;
     font-weight: 800;
     cursor: pointer;
 }
@@ -66,26 +67,29 @@ body {
 }
 
 .blog {
-    margin: 10px 0px 10px 0px;
+    margin: 15px 0px 10px 0px;
+    font-size: 0.85rem;
+    color: rgb(107,107,107);
 }
 
 .author {
     display: flex;
-    margin: 20px 0px 0px 0px ;
-    vertical-align: middle;
-    text-align: left;
+    margin: 15px 0px 0px 0px ;
+    text-align: center;
 }
 
 .name {
-    margin: 7px 5px 0px 5px;
+    /* margin: 7px 5px 0px 5px; */
+    
     font-weight: 800;
-    font-size: 20px;
+    font-size: 0.7rem;
+    align-self: center;
+    padding-top: 5px;
 }
 
 .pfp {
-    height: 35px;
-    width: 35px;
-    padding: 5px 5px 0px 5px;
+    height: 32px;
+    padding: 5px 10px 0px 5px;
 }
 
 .attribution {
